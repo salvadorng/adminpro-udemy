@@ -1,1 +1,47 @@
-<p>graficas1 works!</p>
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+              <app-grafico-donna [data]="graficos.grafico1.data"
+                [labels]="graficos.grafico1.labels"
+                [leyenda]="graficos.grafico1.leyenda"></app-grafico-donna>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-grafico-donna [data]="graficos.grafico2.data"
+                [labels]="graficos.grafico2.labels"
+                [leyenda]="graficos.grafico2.leyenda"></app-grafico-donna>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+              <app-grafico-donna [data]="graficos.grafico3.data"
+                [labels]="graficos.grafico3.labels"
+                [leyenda]="graficos.grafico3.leyenda"></app-grafico-donna>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-grafico-donna [data]="graficos.grafico4.data"
+                [labels]="graficos.grafico4.labels"
+                [leyenda]="graficos.grafico4.leyenda"></app-grafico-donna>
+            </div>
+        </div>
+    </div>
+
+</div>
